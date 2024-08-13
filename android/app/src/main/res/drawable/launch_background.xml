@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Set the background color to your primary color -->
+    <item android:drawable="@android:color/white">
+        <shape>
+            <solid android:color="#685CF0"/>
+        </shape>
+    </item>
+
+    <!-- Insert your image asset here -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/app_icons" />
+    </item>
+</layer-list>
